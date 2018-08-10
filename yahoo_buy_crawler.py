@@ -13,12 +13,20 @@ def export_to_file(data, out_filename):
     head = u'timestamp, pd_id, name, price, cat_id, cat_name'
     timestamp = data[0][0]
     filename = "%s_%s.csv" %(out_filename, timestamp)
+    txtfile = "%s_%s.txt" %(out_filename, timestamp)
 
+    '''
     with open(filename, 'wb') as myfile:
         wr = csv.writer(myfile)
         wr.writerow(head)
         for i in range(len(data)):
             wr.writerow(data[i])
+    '''
+
+    with open(txtfile, 'wb', 'utf-8') as myfile:
+        myfile.write(head)
+        for i in range(len(data)):
+            myfile.write(data[i])
 
     return
 
