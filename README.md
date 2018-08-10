@@ -8,7 +8,7 @@ write an efficient crawling architecture and a query interface that gets the bes
 # Website:
 * https://tw.buy.yahoo.com/
 * 推薦的api 
-https://tw.buy.yahoo.com/catalog/ajax/recmdHotNew?segmentId=999999&subId=19,30,470,478,23,463,90,9,1,430&t=1533845874974
+https://tw.buy.yahoo.com/catalog/ajax/recmdHotNew
 
 * 全站分類
 https://tw.buy.yahoo.com/help/helper.asp?p=sitemap
@@ -18,20 +18,19 @@ https://tw.buy.yahoo.com/?z=7&sort=-ptime&pg=1
 
 # Usage:
 ## Install
-pip install -r requirements.txt
-Python version = 2.7.10
-##Get best sale procucts
+* pip install -r requirements.txt
+* Python version = 2.7.10
 
-##Query on local machine.
+## Excute
+python yahoo_buy_crawler.py
+
+## Output data
+data/
+
+# Limitation:
+* We can only query TOP 10 best seller categories from API.
+* We can only query TOP 5 best seller item in a category from API.
 
 # Design and Implement Steps: 
 ## Program Flow 
 ## Parse website
-## Database
-
-# Functions:
-
-# Python package
-* selenim // Get webpage
-
-# Test:
