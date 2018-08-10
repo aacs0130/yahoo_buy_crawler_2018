@@ -17,8 +17,11 @@ https://tw.buy.yahoo.com/help/helper.asp?p=sitemap
 https://tw.buy.yahoo.com/?z=7&sort=-ptime&pg=1
 
 # Usage:
-##Install
+## Install
+pip install -r requirements.txt
+Python version = 2.7.10
 ##Get best sale procucts
+
 ##Query on local machine.
 
 # Design and Implement Steps: 

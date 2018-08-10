@@ -7,13 +7,21 @@ import pandas as pd
 import requests as rs
 from bs4 import BeautifulSoup as bs 
 
-def get_data_from_url():
+def get_data_from_url(yahoo_url):
+    df = ''
 
-def export_to_file():
+    return df
 
-def query_from_cmd():
+def export_to_file(data, out_filename, subId):
+
+
+    return
+
+def query_from_cmd(yahoo_url, subId):
     #subId = [1,999]
     df = get_data_from_url(yahoo_url)
+
+    return df
 
 def main():
     yahoo_url = ''
