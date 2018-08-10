@@ -7,8 +7,14 @@ write an efficient crawling architecture and a query interface that gets the bes
 
 # Website:
 * https://tw.buy.yahoo.com/
-* https://tw.buy.yahoo.com/gdsale/%E5%BE%A1%E8%8C%B6%E5%9C%92-%E6%AF%8F%E6%9C%9D%E5%81%A5%E5%BA%B7%E7%B6%A0%E8%8C%B6-650mlx24%E5%85%A5-1127198.html?act=fprecmtop
-* https://tw.buy.yahoo.com/gdsale/JINCHEN-%E7%99%BD%E9%8B%BC%E8%8A%B1%E6%9C%B5%E6%89%8B%E7%92%B0-6937252.html?act=fprecmtop
+* 推薦的api 
+https://tw.buy.yahoo.com/catalog/ajax/recmdHotNew?segmentId=999999&subId=19,30,470,478,23,463,90,9,1,430&t=1533845874974
+
+* 全站分類
+https://tw.buy.yahoo.com/help/helper.asp?p=sitemap
+
+* 分類頁
+https://tw.buy.yahoo.com/?z=7&sort=-ptime&pg=1
 
 # Usage:
 ##Install
